@@ -13,6 +13,11 @@ variable "gcp_region" {
   type        = string
 }
 
+variable "gcp_credentials" {
+  description = "Contents of the GCP credentials file."
+  type        = string
+}
+
 variable "gcp_zone" {
   description = "The region in which all GCP resources will be launched."
   type        = string
